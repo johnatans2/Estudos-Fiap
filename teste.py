@@ -1,15 +1,14 @@
-#Apresentação
-print("Cálculo das Operações Fundamentais")
-#Inputs
-num1=float(input("Qual é o primeiro número? "))
-num2=float(input("Qual é o segundo número? "))
-#Processamento de Dados
-soma=num1+num2
-subtracao=num1-num2
-multiplicacao=num1*num2
-divisao=num1/num2
-#Outputs
-print(f"O total é {soma:.2f}")
-print(f"O resto é {subtracao:.2f}")
-print(f"O produto é {multiplicacao:.2f}")
-print(f"O quociente é {divisao:.2f}")
+rm=input("Por favor, digite o se RM: ")
+print(rm)
+idade=int(input("Por favor, digite a sua idade: "))
+print(idade)
+if idade>=18:
+    print(f"Sua inscrição foi autorizada, aluno de RM {rm}")
+    print("Mais instruções serão enviadas ao seu E-mail cadastrado na FIAP!")
+else:
+    autorizacao=input("Você possui autorização dos seus responsáveis para participar do campeonato? ").lower()
+    if autorizacao=="sim":
+        print(f"Sua inscrição foi autorizada, aluno de RM {rm}")
+        print("Mais instruções serão enviadas ao seu E-mail cadastrado na FIAP!")
+    else:
+        print("Sua participação não foi autorizada por causa da sua idade")
