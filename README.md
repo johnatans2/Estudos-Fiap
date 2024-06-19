@@ -1,2 +1,2 @@
-# Fiap
-Repositório criado para estudo e projetos feitos durante a minha graduação
+# Estudos Fiap
+Repositório criado para estudo e prática do material da minha graduação
